@@ -3,54 +3,109 @@
     padding: 0;
     box-sizing: border-box;
 }
-body, html{
+body html{
     width: 100%;
     height: 100%;
     position: relative;
 }
 .cantener{
-   height: 1500px;
-    background-color: rgb(214, 243, 243);
+    height:1200px ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
 }
 .card{
-    height: 90px;
-    background-color: rebeccapurple;
-}
-.card1{
-    height: 70px;
-    background-color: red;
-}
-.box{
-    margin-top: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-.box1{
     width: 800px;
-    height: 600px;
+    height: 800px; 
 }
-.box1 img{
+.card img{
     width: 800px;
-    height: 600px;
+    height: 800px;
     border-radius: 15px;
 }
-.box2{
+.start{
     width: 800px;
-    height: 600px;
-    outline: 1px solid;
-    display: flex;
-    justify-content: space-around;
+    height: 800px;
 }
-.centr{
-    width: 400px;
-    height: 300px;
-    outline: 1px solid;
- 
-  
-}
-.centr img{
-    width: 300px ;
-    height: 300px ;
+.box{
     display: flex;
     justify-content: space-between;
 }
+.box1{
+    width: 380px ;
+    height: 380px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.boxxx{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.boxx1{
+    width: 20px;
+    height: 20px;
+    background-color:grey;
+    border-radius: 50%;
+    margin-top: 10px;
+}  
+.box1 img{
+    width: 200px ;
+    height: 200px;
+    border-radius: 15px;
+}
+.box1:hover{
+    box-shadow: 5px 5px 15px;
+}
+.start2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.tavar1{
+    width: 380px ;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.tavar1 img{
+    width: 200px ;
+    height: 200px;
+    border-radius: 15px;
+}
+.tavar11{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.tavar111{
+    width: 20px;
+    height: 20px;
+    background-color:grey;
+    border-radius: 50%;
+    margin-top: 10px;
+} 
+.tavar1:hover{
+    box-shadow:5px 5px 15px;
+}
+
