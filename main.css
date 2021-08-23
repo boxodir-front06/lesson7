@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.cantener{
+   height: 1500px;
+    background-color: rgb(214, 243, 243);
+}
+.card{
+    height: 90px;
+    background-color: rebeccapurple;
+}
+.card1{
+    height: 70px;
+    background-color: red;
+}
+.box{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    width: 800px;
+    height: 600px;
+}
+.box1 img{
+    width: 800px;
+    height: 600px;
+    border-radius: 15px;
+}
+.box2{
+    width: 800px;
+    height: 600px;
+    outline: 1px solid;
+    display: flex;
+    justify-content: space-around;
+}
+.centr{
+    width: 400px;
+    height: 300px;
+    outline: 1px solid;
+ 
+  
+}
+.centr img{
+    width: 300px ;
+    height: 300px ;
+    display: flex;
+    justify-content: space-between;
+}
