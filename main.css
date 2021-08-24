@@ -10,7 +10,6 @@ body html{
 }
 .finish{
    height: 80px;
-   background-color: red;
    display: flex;
    justify-content: space-around;
 }
@@ -33,95 +32,111 @@ body html{
     align-items: center;
     text-align: center;
     margin-top: 20px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
 }
+ i:hover{
+     background-color: rgb(67, 67, 252);
+ }
 .icon p{
     font-size: 15px;
     padding-left: 5px;
 }
 .icons{
+    width: 100px;
+    height: 80px;
     font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
   }
-  .icons2{
+ .icons span{
+      font-size: 17px;
+      color: gray;
+  }
+.icons2{
+    width: 100px;
+    height: 80px;
     font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
   }
+.icons2 span{
+    font-size: 17px;
+    color: gray;
+}
 .icons3{
-  font-size: 30px;
+    width: 100px;
+    height: 80px;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.icons3 span{
+    font-size: 20px;
+    color: gray;
+}
+.img{
+    width: 100px;
+    height: 80px;
+    padding-top: 10px;
+    text-align: center;
+}
+.img span{
+    font-size: 17px;
+    color: gray;
+}
+.img2{
+    width: 100px;
+    height: 80px;
+    padding-top: 10px;
+    text-align: center;
+}
+.img2 span{
+    font-size: 20px;
+    color: gray;
 }
 .finish input{
     width: 600px;
     height: 40px;
     border: 1px solid blue;
     margin-top: 20px;
-    border-radius: 15px;
+    border-radius: 10px 0px 0px 10px;
+    padding-left: 10px;
 }
 .finish2{
     height: 70px;
-    background-color: blue;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
  }
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.finish2 ul{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-top: 25px;
+    cursor: pointer;
+}
+li:hover{
+    color: blue;
+}
+.text{
+    margin-top: 25px;
+}
+hr{
+    margin-top: 10px;
+}
 .cantener{
-    height:1000px ;
+    height:1200px ;
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(229, 243, 238);
+    padding-bottom: 250px;
 }
 .card{
     width: 800px;
@@ -248,4 +263,24 @@ body html{
 }
 .tavar1:hover{
     box-shadow:5px 5px 15px;
+}
+@media only screen and (max-width: 600px) {
+ .finish2 span{
+     font-size: 1.25rem;
+ }
+}
+@media only screen and (min-width: 800px) {
+ .finish2 span{
+  font-size: 1.5rem;
+  line-height: 1.5;
+ }
+}
+@media only screen and (min-width: 768px) {
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+
 }
