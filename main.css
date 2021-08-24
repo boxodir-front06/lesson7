@@ -8,12 +8,120 @@ body html{
     height: 100%;
     position: relative;
 }
+.finish{
+   height: 80px;
+   background-color: red;
+   display: flex;
+   justify-content: space-around;
+}
+.finish img{
+    width:40px;
+    height: 40px;
+}
+.icon{
+  display: flex;
+}
+.icon i{
+    font-size: 20px;
+    width: 100px;
+    height: 40px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.icon p{
+    font-size: 15px;
+    padding-left: 5px;
+}
+.icons{
+    font-size: 30px;
+  }
+  .icons2{
+    font-size: 30px;
+  }
+.icons3{
+  font-size: 30px;
+}
+.finish input{
+    width: 600px;
+    height: 40px;
+    border: 1px solid blue;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+.finish2{
+    height: 70px;
+    background-color: blue;
+ }
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cantener{
-    height:1200px ;
+    height:1000px ;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
+    background-color: rgb(229, 243, 238);
 }
 .card{
     width: 800px;
@@ -23,6 +131,8 @@ body html{
     width: 800px;
     height: 800px;
     border-radius: 15px;
+}.card img:hover{
+    box-shadow: 5px 5px 10px rgb(129, 129, 248);
 }
 .start{
     width: 800px;
@@ -35,77 +145,107 @@ body html{
 .box1{
     width: 380px ;
     height: 380px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: space-between;
+    border-radius: 20px;
+    background-color: white;
+    position: relative;
 }
-.btn {
-    width: 150px;
-    height: 40px;
-    color: white;
-    padding-top: 10px;
-    text-align: center;
-    background-color: blue;
-    border-radius: 10px;
-    margin-top: 150px;
-    margin-left: 35px;
-    cursor: pointer;
-}
-.boxxx{
-    width: 20px;
-    height: 20px;
-    background-color: blue;
-    border-radius: 50%;
-    margin-top: 10px;
-}
-.boxx1{
-    width: 20px;
-    height: 20px;
-    background-color:grey;
-    border-radius: 50%;
-    margin-top: 10px;
-}  
 .box1 img{
     width: 200px ;
     height: 200px;
     border-radius: 15px;
+}
+.box1 span{
+    display: block;
+    color: rgb(168, 164, 164);
+    text-align: right ;
+     font-size: 20px;
+     padding-top: 20px;
+     padding-right: 5px;
+}
+.box1 strong{
+    display: block;
+    padding-top: 20px;
+     text-align: right;
+     font-size: 20px;
+     padding-right: 5px;
+     cursor: pointer;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+.btn:hover{
+    background-color: rgb(88, 88, 228);
 }
 .box1:hover{
     box-shadow: 5px 5px 15px;
 }
 .start2{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     margin-top: 40px;
 }
 .tavar1{
     width: 380px ;
     height: 380px;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;  
+    position: relative;
 }
 .tavar1 img{
     width: 200px ;
     height: 200px;
     border-radius: 15px;
 }
+.tavar1 span{
+    display: block;
+    color: gray;
+    text-align: right;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+.tavar1 strong{
+    display: block;
+    text-align: right;
+    padding-top: 20px;
+    font-size: 20px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.abs{
+    position: absolute;
+    right: 0;
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.abs .tavar111{
+    margin-right: 10px;
+}
+.abs .tavar11{
+    margin-right: 10px;
+}
 .tavar11{
     width: 20px;
     height: 20px;
     background-color: blue;
     border-radius: 50%;
-    margin-left: 80px;
-    margin-top: 10px;
 }
 .tavar111{
     width: 20px;
     height: 20px;
-    background-color:grey;
+    background-color:rgb(197, 195, 195);
     border-radius: 50%;
-    margin-top: 10px;
-} 
+}
 .tavar1:hover{
     box-shadow:5px 5px 15px;
 }
-
